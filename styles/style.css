@@ -55,3 +55,8 @@ form{
     justify-content: center !important;
     align-items: center !important;
 }
+
+#botaoEnviar {
+    width: 100%;
+    margin-left: 2%;
+}
