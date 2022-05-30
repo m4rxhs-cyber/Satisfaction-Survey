@@ -84,6 +84,7 @@ function getAvaliacoes() {
                 row.append($('<td></td>').html(avaliacoes[i].nome_disciplina));
                 row.append($('<td></td>').html(avaliacoes[i].avaliacao));
                 row.append($('<td></td>').html(avaliacoes[i].comentario));
+                row.append($('<td></td>').html(avaliacoes[i].created_at));
 
                 $('#grid').append(row);
             }
