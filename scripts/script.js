@@ -9,8 +9,8 @@ function logar() {
             for (i = 0; i < resposta.length; i++) {
                 if (resposta[i].login == login && resposta[i].senha == senha) {
                     if(resposta[i].grupo == 'aluno'){
-                        window.location.href = "envio_avaliacao.html";
-                    }else{window.location.href = "avaliacoes.html"}
+                        window.location.href = "./envio_avaliacao.html";
+                    }else{window.location.href = "./avaliacoes.html"}
                 } else {
                     Swal.fire({
                         icon: 'error',
@@ -111,7 +111,7 @@ function easteregg() {
         background: '#fff',
         backdrop: `
           rgba(0,0,123,0.4)
-          url("/img/chew.webp")
+          url("./img/chew.webp")
           left top
           no-repeat
         `
